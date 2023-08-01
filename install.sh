@@ -16,15 +16,15 @@ pip3 install flask > /dev/null 2>&1
 rm /bin/chany > /dev/null 2>&1
 sleep 5
 cd /bin || exit
-wget https://raw.githubusercontent.com/LightY4gami/checkany/main/chany > /dev/null 2>&1
-wget https://raw.githubusercontent.com/LightY4gami/checkany/main/userscheck > /dev/null 2>&1
+wget https://raw.githubusercontent.com/abraaosantobmx/checkany/main/chany > /dev/null 2>&1
+wget https://raw.githubusercontent.com/abraaosantobmx/checkany/main/userscheck > /dev/null 2>&1
 chmod 777 chany > /dev/null 2>&1
 chmod 777 userscheck > /dev/null 2>&1
 clear
 mkdir /usr/lib/checkany > /dev/null 2>&1
 cd /usr/lib/checkany || exit
 rm checkany.py > /dev/null 2>&1
-wget https://raw.githubusercontent.com/LightY4gami/checkany/main/checkany.py > /dev/null 2>&1
+wget https://raw.githubusercontent.com/abraaosantobmx/checkany/main/checkany.py > /dev/null 2>&1
 chmod 777 checkany.py > /dev/null 2>&1
 clear
 echo -e "        \033[1;33m • \033[1;32mINSTALAÇÃO CONCLUÍDA\033[1;33m • \033[0m"
